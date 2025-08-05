@@ -1,0 +1,6 @@
+mcp
+fastapi
+uvicorn
+httpx
+fastmcp
+nest-asyncio

@@ -1,0 +1,33 @@
+# Ambiente virtual Python
+venv_mcp/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Configurações locais
+.env
+config/local_*
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# Docker
+.dockerignore
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo

@@ -1,0 +1,36 @@
+# docker-compose.yml
+# Arquivo de configuração para orquestrar nosso container Docker
+
+version: '3.8'
+
+services:
+  # Serviço do servidor MCP da calculadora
+  mcp-calculadora:
+    # Nome da imagem que construímos
+    image: mcp-calculadora:1.0
+    
+    # Nome do container quando executar
+    container_name: mcp-calculadora-server
+    
+    # Comando para executar (sobrescreve o CMD do Dockerfile)
+    command: python servidor_mcp.py
+    
+    # Política de reinicialização
+    restart: unless-stopped
+    
+    # Variáveis de ambiente (se necessário)
+    environment:
+      - PYTHONUNBUFFERED=1
+    
+    # Volumes (se quisermos persistir dados)
+    # volumes:
+    #   - ./logs:/app/logs
+    
+    # Redes (se quisermos conectar com outros serviços)
+    # networks:
+    #   - mcp-network
+
+# Definição de redes personalizadas (se necessário)
+# networks:
+#   mcp-network:
+#     driver: bridge

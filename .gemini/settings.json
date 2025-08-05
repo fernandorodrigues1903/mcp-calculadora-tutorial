@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "calculadora-mcp": {
+      "command": "python",
+      "args": ["servidor_mcp.py"],
+      "cwd": "C:\\mcp-calculadora-tutorial",
+      "timeout": 10000,
+      "trust": false
+    }
+  }
+}
