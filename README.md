@@ -13,7 +13,7 @@ Este projeto demonstra como criar um servidor MCP básico em Python que permite 
 - ➗ **Divisão**: Divide dois números (com proteção contra divisão por zero)
 - ℹ️ **Informações**: Mostra detalhes sobre as operações disponíveis
 
-## 🛠️ Tecnologias Utilizadas
+# 🛠️ Tecnologias Utilizadas
 
 - **Python 3.11+**: Linguagem de programação principal
 - **MCP (Model Context Protocol)**: Protocolo para integração com IA
