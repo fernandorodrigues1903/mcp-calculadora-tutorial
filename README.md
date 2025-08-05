@@ -6,7 +6,7 @@ Um servidor Model Context Protocol (MCP) simples que expõe operações de calcu
 
 Este projeto demonstra como criar um servidor MCP básico em Python que permite que assistentes de IA realizem operações matemáticas simples através do protocolo MCP. É ideal para iniciantes que querem aprender sobre MCP e integração de IA.
 
-## ✨ Funcionalidades
+# ✨ Funcionalidades
 
 - ➕ **Adição**: Soma dois números
 - ➖ **Subtração**: Subtrai dois números  
